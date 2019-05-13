@@ -1,13 +1,18 @@
 import React from 'react';
 import { WebView } from 'react-native';
-import Home from './home.io/index.html'
 
 export default class App extends React.Component {
   render() {
+    const url = 'https://error-404-team.github.io/share-to-go-ui/';
     return (
       <WebView
-      source={Home}
-      style={{flex: 1}}
+      source={{
+        uri: url,
+      }}
+      startInLoadingState
+      scalesPageToFit
+      javaScriptEnabled
+      style={{ flex: 1 }}
     />
     );
   }

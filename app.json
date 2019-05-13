@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "chare-to-go",
-    "slug": "chareToGo-Native-expo",
+    "name": "share-to-go",
+    "slug": "shareToGo-Native-expo",
     "privacy": "public",
     "sdkVersion": "32.0.0",
     "platforms": [
@@ -10,7 +10,6 @@
     ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -23,7 +22,14 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.myapp"
+    },
+    "description": "",
+    "githubUrl": "https://github.com/error-404-team/shareToGo-Native-expo.git",
+    "android": {
+      "package": "com.example.myapp"
     }
   }
+ 
 }
