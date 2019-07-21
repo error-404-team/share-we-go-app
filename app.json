@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Share We Go",
+    "slug": "share-we-go-app",
+    "privacy": "public",
+    "sdkVersion": "33.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "githubUrl": "https://github.com/error-404-team/shareToGo-Native-expo.git",
+    "android": {
+      "package": "com.example.shareWeGo"
+    },
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
